@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB15FA216559842003605E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB15FA116559842003605E4 /* Cocoa.framework */; };
+		5CB15FAC16559842003605E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CB15FAA16559842003605E4 /* InfoPlist.strings */; };
+		5CB15FAE16559842003605E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB15FAD16559842003605E4 /* main.m */; };
+		5CB15FB216559842003605E4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5CB15FB016559842003605E4 /* Credits.rtf */; };
+		5CB15FB516559842003605E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB15FB416559842003605E4 /* AppDelegate.m */; };
+		5CB15FB816559842003605E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB15FB616559842003605E4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CB15F9D16559842003605E4 /* LabBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB15FA116559842003605E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5CB15FA416559842003605E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CB15FA516559842003605E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CB15FA616559842003605E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CB15FA916559842003605E4 /* LabBackup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LabBackup-Info.plist"; sourceTree = "<group>"; };
+		5CB15FAB16559842003605E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CB15FAD16559842003605E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB15FAF16559842003605E4 /* LabBackup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabBackup-Prefix.pch"; sourceTree = "<group>"; };
+		5CB15FB116559842003605E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5CB15FB316559842003605E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CB15FB416559842003605E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CB15FB716559842003605E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB15F9A16559842003605E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB15FA216559842003605E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB15F9216559842003605E4 = {
+			isa = PBXGroup;
+			children = (
+				5CB15FA716559842003605E4 /* LabBackup */,
+				5CB15FA016559842003605E4 /* Frameworks */,
+				5CB15F9E16559842003605E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB15F9E16559842003605E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB15F9D16559842003605E4 /* LabBackup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB15FA016559842003605E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB15FA116559842003605E4 /* Cocoa.framework */,
+				5CB15FA316559842003605E4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CB15FA316559842003605E4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB15FA416559842003605E4 /* AppKit.framework */,
+				5CB15FA516559842003605E4 /* CoreData.framework */,
+				5CB15FA616559842003605E4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CB15FA716559842003605E4 /* LabBackup */ = {
+			isa = PBXGroup;
+			children = (
+				5CB15FB316559842003605E4 /* AppDelegate.h */,
+				5CB15FB416559842003605E4 /* AppDelegate.m */,
+				5CB15FB616559842003605E4 /* MainMenu.xib */,
+				5CB15FA816559842003605E4 /* Supporting Files */,
+			);
+			path = LabBackup;
+			sourceTree = "<group>";
+		};
+		5CB15FA816559842003605E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB15FA916559842003605E4 /* LabBackup-Info.plist */,
+				5CB15FAA16559842003605E4 /* InfoPlist.strings */,
+				5CB15FAD16559842003605E4 /* main.m */,
+				5CB15FAF16559842003605E4 /* LabBackup-Prefix.pch */,
+				5CB15FB016559842003605E4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB15F9C16559842003605E4 /* LabBackup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB15FBB16559842003605E4 /* Build configuration list for PBXNativeTarget "LabBackup" */;
+			buildPhases = (
+				5CB15F9916559842003605E4 /* Sources */,
+				5CB15F9A16559842003605E4 /* Frameworks */,
+				5CB15F9B16559842003605E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabBackup;
+			productName = LabBackup;
+			productReference = 5CB15F9D16559842003605E4 /* LabBackup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB15F9416559842003605E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ivan Antolic-Soban";
+			};
+			buildConfigurationList = 5CB15F9716559842003605E4 /* Build configuration list for PBXProject "LabBackup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CB15F9216559842003605E4;
+			productRefGroup = 5CB15F9E16559842003605E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB15F9C16559842003605E4 /* LabBackup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB15F9B16559842003605E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB15FAC16559842003605E4 /* InfoPlist.strings in Resources */,
+				5CB15FB216559842003605E4 /* Credits.rtf in Resources */,
+				5CB15FB816559842003605E4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB15F9916559842003605E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB15FAE16559842003605E4 /* main.m in Sources */,
+				5CB15FB516559842003605E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CB15FAA16559842003605E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB15FAB16559842003605E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CB15FB016559842003605E4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB15FB116559842003605E4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5CB15FB616559842003605E4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB15FB716559842003605E4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CB15FB916559842003605E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CB15FBA16559842003605E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CB15FBC16559842003605E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabBackup/LabBackup-Prefix.pch";
+				INFOPLIST_FILE = "LabBackup/LabBackup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CB15FBD16559842003605E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabBackup/LabBackup-Prefix.pch";
+				INFOPLIST_FILE = "LabBackup/LabBackup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB15F9716559842003605E4 /* Build configuration list for PBXProject "LabBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB15FB916559842003605E4 /* Debug */,
+				5CB15FBA16559842003605E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB15FBB16559842003605E4 /* Build configuration list for PBXNativeTarget "LabBackup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB15FBC16559842003605E4 /* Debug */,
+				5CB15FBD16559842003605E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB15F9416559842003605E4 /* Project object */;
+}
