@@ -1,0 +1,6 @@
+.DS_Store
+
+LabBackup.xcodeproj/project.xcworkspace/
+LabBackup.xcodeproj/xcuserdata/**/*
+LabBackup.xcodeproj/project.xcworkspace/**/*
+
