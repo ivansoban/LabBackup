@@ -313,7 +313,7 @@ dispatch_queue_t update_queue;
             
             [self setIsSyncing:NO];
             [statusItem setImage:statusImage];
-            
+            /*
             NSAlert * alert = [[NSAlert alloc] init];
             
             [alert addButtonWithTitle:@"OK"];
@@ -321,6 +321,7 @@ dispatch_queue_t update_queue;
             [alert setInformativeText:@""];
             [alert setAlertStyle:NSInformationalAlertStyle];
             [alert runModal];
+             */
         
         });
         
