@@ -23,6 +23,8 @@ dispatch_queue_t update_queue;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     
+    [NSApp activateIgnoringOtherApps:NO];
+    
     NSUserDefaults * defaultPrefs = [NSUserDefaults standardUserDefaults];
     
     NSMutableDictionary * prefs = [[NSMutableDictionary alloc] init];
@@ -138,7 +140,7 @@ dispatch_queue_t update_queue;
 
 - (IBAction)syncSelected:(id)sender {
     
-    [NSApp activateIgnoringOtherApps:YES];
+    [NSApp activateIgnoringOtherApps:NO];
     NSLog(@"Sync pressed");
     
     if([self isSyncing]) { return; }
